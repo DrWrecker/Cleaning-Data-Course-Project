@@ -77,7 +77,7 @@ run_analysis <- function() {
    # reset column names in one_set
       colnames(one_set) <- newNames  
   # summerize one_set
-      aggdata <- aggregate(oneset, by=list(oneset$activity,oneset$subjectid), FUN = mean)
+      aggdata <- aggregate(one_set, by=list(one_set$activity,one_set$subjectid), FUN = mean)
       tidydata= subset(aggdata,TRUE,-2)
       tidydata= subset(tidydata,TRUE,-3)
       tidynames = colnames(tidydata)
