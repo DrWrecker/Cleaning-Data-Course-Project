@@ -1,2 +1,5 @@
 CodeBook
-The code is heavily annotated to explain the flow of processing. Some steps were done out of the recommended assignment order. For example, after merging the two sets, descriptive column names were added before extracting the variable/columns with the desired measurements. At that point, the descriptive activity names were added. This process gave the same type of table expected in step 4 of the assignment before creating a second independent tidy data set for submission.
+The code is heavily annotated to explain the flow of processing. Some steps were done out of the recommended assignment order. 
+For example, after merging the two sets, descriptive column names were added before extracting the variable/columns with 
+the desired measurements. At that point, the descriptive activity names were added. This process gave the same type of table 
+expected in step 4 of the assignment before creating a second independent tidy data set for submission.
